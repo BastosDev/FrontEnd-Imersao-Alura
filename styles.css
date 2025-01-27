@@ -20,3 +20,32 @@ h1 {
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
+
+.logo { 
+    background: #191919;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.sidebar nav ul { 
+    margin-top: 40px;
+    padding: 0 20px 10px 20px;
+    margin-left: -90px ;
+}
+
+.sidebar nav ul li { 
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: rgb(193, 192, 192);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
