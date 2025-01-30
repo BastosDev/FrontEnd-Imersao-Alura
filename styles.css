@@ -96,8 +96,9 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: #212121;
+    border-radius: 8px;
+    color: #d3d0d0;
     width: 600;
     font-size: 14px;
     margin: 8px 0;
@@ -105,5 +106,37 @@ body {
 }
 
 .section-playlist .section-playlist__content {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist .section-playlist__content .text { 
+    color: white;
+    padding-bottom: 14px;
+}
+
+.section-playlist .section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist .section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 12px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px;
+    width: 113px;
 }
